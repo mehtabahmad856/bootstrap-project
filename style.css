@@ -1,0 +1,548 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    background-image:  linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.8),black),  url(./layer1.png);
+    width: 100%;
+    height: 100vh;
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.home ul{
+    display: flex;
+}
+
+.home #yellow{
+    color: yellow;
+    
+}
+.menu li{
+    
+    padding: 20px;
+    margin: 20px;
+    
+    
+}
+.menu a{
+    color: #fff;
+}
+.dil img{
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.home li{
+    padding: 20px;
+    margin: 20px;
+}
+.headpara h1{
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    word-spacing: 10px;
+    margin-left: 450px;
+    font-size: 50px;
+    margin-top: 100px;
+    
+}
+.headpara p{
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-right: 170px;
+    margin-top: -10px;
+    
+}
+  
+.pizza img{
+    display: flex;
+    align-content: center;
+    
+    padding: 10px;
+    margin-top: -400px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.call-to-action a{
+    color: black;
+    background: yellow;
+    padding: 20px ;
+    margin: 20px;
+    
+    
+    
+    
+
+
+
+}
+.call-to-action{
+    border: 2px solid transparent;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 310px;
+    margin-top: -20px;
+    
+}
+
+.container-2{
+    background-color: black   ;
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.container-2 .about{
+font-size: 30px;
+align-self: flex-start;
+margin-top: 180px;
+margin-left: 50px;
+color: #fff;
+
+}
+.container-2 .salan{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.stabery{
+    background: black;
+    height: 260vh;   
+}
+.food-gallery{
+    
+    background: black;
+    height: 160vh;
+    color: #fff;
+    margin-top: -35px;
+
+}
+.food-gallery h1{
+  text-align: center;
+  /* background: chartreuse; */
+  font-size: 50px;
+}
+.fruits {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.vegetables{
+    display: flex;
+    justify-content: space-evenly;
+    /* background: chartreuse; */
+    align-items: center;
+    height: 560px;
+}
+.dish{
+    background: url(layer2.png);
+    height: 140vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dish .enjoy{
+    border: 10px solid yellow;
+    color: #fff;
+    width: 750px;
+    height: 630px;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+.our-menu{
+    background: black;
+    height: 130vh;
+    color: #fff;
+    margin-top: -40px;
+     
+    
+}
+.ourmenu1{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+#sajid{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  
+    
+    font-size: 50px;
+    height: 200px;
+}
+
+.tea{
+    display: flex;
+    flex-direction: column;
+    
+}
+.italian h1{
+    color: yellow;
+}
+.italian h2{
+    color: yellow;
+}
+.italian p{
+    font-size: 20px;
+}
+.rectangle{
+    background: url(Rectangle.png);
+    height: 70vh;
+    margin-top: -40px;
+
+    display: flex;
+}
+.IMG{
+    margin-top: -40px;
+}
+
+.meal{
+    color: #fff;
+    
+   
+}
+.meal h1{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 50px;
+    height: 200px;
+    margin-left: 40px;
+    
+}
+.meal p{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 100px;
+    font-size: 30px;
+    margin-left: 60px;
+}
+.footer{
+
+    background: url(Rectangle2.png);
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.logo-2{
+   display: flex;
+ justify-content: center;
+  
+}
+
+.nav-bar{
+    list-style: none;
+    display: flex;
+    /* padding: 15px 0; */
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+} 
+.nav-bar li{
+    padding: 20px;
+    margin: 20px;
+    font-size: 25px;
+}
+#khan{
+text-align: center;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media screen and (max-width:1488px){
+    .container{
+        background-image:  linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.8),black),  url(./layer1.png);
+        width: 100%;
+        height: 140vh;
+        /* background-size: cover; */
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+
+   
+}
+@media screen and (max-width:1440px){
+    .stabery {
+        background: black;
+        height: 260vh;   
+        margin-top: -100px;
+    }
+    .container-2{
+        background-color: black   ;
+        width: 100%;
+        height: 140vh;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: flex;
+    }
+    .food-gallery {
+        background: black;
+        height: 180vh;
+        color: #fff;
+        margin-top: -280px;
+    }
+    
+    .food-gallery h1{
+        text-align: center;
+        /* background: chartreuse; */
+        font-size: 50px;
+        margin-top: 280px;
+      }
+      .our-menu{
+        background: black;
+        height: 160vh;
+        color: #fff;
+        margin-top: -40px;
+    }
+    .tea{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        
+    }
+    .italian h1{
+        color: yellow;
+        font-size: 25px;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+}
+ @media screen and (max-width:1024px){
+    .container{
+        background-image:  linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.8),black),  url(./layer1.png);
+        width: 140%;
+        height: 150vh;
+        /* background-size: cover; */
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .stabery{
+        background: black;
+        height: 350vh;   
+    }
+    .food-gallery{
+    
+        background: black;
+        height: 180vh;
+        color: #fff;
+        margin-top: -570px;
+    
+    }
+    .food-gallery h1{
+      text-align: center;
+      /* background: chartreuse; */
+      font-size: 50px;
+    }
+
+    
+}  
+@media screen and (max-width:768px){
+    .container{
+        background-image:  linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.8),black),  url(./layer1.png);
+        width: 185%;
+        height: 150vh;
+        /* background-size: cover; */
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .stabery{
+        background: black;
+        height: 350vh;   
+    }
+    .bg-img img{
+        width: 100%;
+        height: 250vh;
+        background:cover cover;
+    }
+    .food-gallery{
+    
+        background: black;
+        height: 180vh;
+        color: #fff;
+        margin-top: -570px;
+    
+    }
+    .food-gallery h1{
+      text-align: center;
+      /* background: chartreuse; */
+      font-size: 50px;
+    }
+
+    
+}  
+
+@media screen and (max-width:425px){
+    .container{
+        background-image:  linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.8),black),  url(./layer1.png);
+        width: 350%;
+        height: 150vh;
+        /* background-size: cover; */
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        font-weight: bolder;
+        font-size: 20px;
+      
+    }
+    .stabery{
+        background: black;
+        height: 350vh;   
+    }
+    .food-gallery{
+    
+        background: black;
+        height: 180vh;
+        color: #fff;
+        margin-top: -570px;
+    
+    }
+    .food-gallery h1{
+      text-align: center;
+      /* background: chartreuse; */
+      font-size: 50px;
+    }
+
+    
+}  
+ 
+@media screen and (max-width:375px){
+    .container{
+        background-image:  linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.8),black),  url(./layer1.png);
+        width: 400%;
+        height: 170vh;
+        /* background-size: cover; */
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+        .menu ul{
+            list-style: none;
+            display: flex;
+            
+            padding: 15px 0;
+            justify-content: space-around;
+            align-items: center;
+            order: 1 ;
+            font-size: 30px;
+            font-weight: bold;
+
+            
+            
+        }
+        .dil {
+            display: flex;
+            justify-content: center;
+          
+        
+            
+        }
+        .leftorder ul{
+            order: 1;
+            display: flex;
+         
+            
+        }
+        .rightorder ul{
+            display: flex;
+          
+            
+            order: 1;
+        }
+  
+    
+    .stabery{
+        background: black;
+        height: 350vh;   
+    }
+    .food-gallery{
+    
+        background: black;
+        height: 180vh;
+        color: #fff;
+        margin-top: -570px;
+    
+    }
+    .food-gallery h1{
+      text-align: center;
+      /* background: chartreuse; */
+      font-size: 50px;
+    }
+    .our-menu{
+        background: black;
+        height: 170vh;
+        color: #fff;
+        margin-top: -40px;
+         
+        
+    }
+    .italian h1{
+        color: yellow;
+        font-size: 30px;
+    }
+    .italian h2{
+        color: yellow;
+        font-size: 30px;
+    }
+    .italian p{
+        font-size: 35px;
+    }
+    .tea{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .our-menu1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+
+    
+}  
+
+ 
